@@ -1,0 +1,23 @@
+name: Mark stale issues and PRs
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/stale@v10
+      with:
+        days-before-stale: 30
+        days-before-close: 7
+
+        stale-issue-message: 'Issue Inaktiv'
+        stale-pr-message: 'PR Inaktiv'
+
+        close-issue-message: "Issue geschlossen."
+        close-pr-message: "PR geschlossen."
+
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
