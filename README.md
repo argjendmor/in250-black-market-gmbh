@@ -8,6 +8,7 @@
 
 Weiterführende Dokumentationen
 - [Verzeichnisstruktur](docs/01_verzeichnisstruktur.md)
+- [Branching-Strategie](docs/02_branch_strategie.md)
 
 
 ### Tasks
