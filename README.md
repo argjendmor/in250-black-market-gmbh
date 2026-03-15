@@ -9,6 +9,7 @@
 Weiterführende Dokumentationen
 - [Verzeichnisstruktur](docs/01_verzeichnisstruktur.md)
 - [Branching-Strategie](docs/02_branch_strategie.md)
+- [Github-Page](https://argjendmor.github.io/in250-black-market-gmbh/)
 
 
 ### Tasks
